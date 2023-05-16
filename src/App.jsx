@@ -14,6 +14,7 @@ function App() {
   const [cartItems, setCartItems] = React.useState([]);
   const [favorites, setFavorites] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState("");
+  
   const [cartOpened, setCartOpened] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
